@@ -1,0 +1,17 @@
+name = "crowdin-bot"
+type = "javascript"
+account_id = ""
+workers_dev = true
+compatibility_date = "2022-05-05"
+
+[vars]
+MatrixBaseUrl = ""
+MatrixAccessToken = ""
+MatrixUserId = ""
+MatrixRoomId = ""
+AuthorizationToken = ""
+
+[build]
+command = "yarn install && yarn run build"
+[build.upload]
+format = "service-worker"
