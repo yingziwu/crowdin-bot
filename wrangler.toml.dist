@@ -11,6 +11,9 @@ MatrixUserId = ""
 MatrixRoomId = ""
 AuthorizationToken = ""
 
+InstanceUrl = ""
+AccessToken = ""
+
 [build]
 command = "yarn install && yarn run build"
 [build.upload]
